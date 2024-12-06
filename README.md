@@ -1,7 +1,8 @@
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
-Link to logistic_growth repo: 
+
+Link to logistic_growth repo: https://github.com/tebyebs/logistic_growth
 
 ## Instructions
 
