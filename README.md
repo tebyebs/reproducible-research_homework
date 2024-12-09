@@ -10,7 +10,7 @@ Q4) Randomness Answers:
 - B) A random seed is a number that is inputted into a pseudorandom number generator (PRNG). Once entered, the PRNG applies an algorithm that generates an output resembling a random sequence. They are not perfectly random, however, as the same seed will generate the same output from the PRNG. Despite this, as long as the seeds are sufficiently different, the output will be very close to random.
 - C) The code is included in this repo under random_walk.R
 - D) <p align="center">
-        <img src="https://github.com/tebyebs/reproducible-research_homework/blob/main/Commit Changes.png" width="607" height="407">
+        <img src="https://github.com/tebyebs/reproducible-research_homework/blob/main/Commit Changes.png" width="807" height="407">
      </p>
 
 
