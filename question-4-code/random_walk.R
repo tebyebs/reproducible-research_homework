@@ -4,8 +4,11 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
-  
+random_walk  <- function (n_steps, seed = NULL) {
+  set.seed(seed)
+  #this allows the user to input a value for the seed
+  #if the seed entered is the same, the output will be reproducible. 
+  #Otherwise, the output will be random.
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
   df[1,] <- c(0,0,1)
@@ -29,7 +32,7 @@ random_walk  <- function (n_steps) {
 }
 
 
-data1 <- random_walk(500)
+data1 <- random_walk(500,1)
 
 plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
@@ -42,7 +45,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   ylab("y-coordinate")
 
 
-data2 <- random_walk(500)
+data2 <- random_walk(500,2)
 
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
