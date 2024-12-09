@@ -13,6 +13,20 @@ Q4) Randomness Answers:
         <img src="https://github.com/tebyebs/reproducible-research_homework/blob/main/changes.png" width="607" height="407">
      </p>
 
+Q5) Viral Volume:
+- A) 13 columns and 33 Rows
+- B) By applying a log transformation on the allometric equation $V = \beta L^{\alpha}$, we obtain the following that can fit a linear equation:
+
+$$
+\ln(V) = \ln(\beta) + \alpha \ln(L)
+$$
+
+- C) 
+
+
+
+
+
 
 
 ## Instructions
