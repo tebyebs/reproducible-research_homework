@@ -2,7 +2,11 @@
 
 \# INSERT ANSWERS HERE #
 
+Q1,2 & 3 are in my logistic growth repo:\
 Link to logistic_growth repo: https://github.com/tebyebs/logistic_growth
+
+Q4a)
+
 
 ## Instructions
 
