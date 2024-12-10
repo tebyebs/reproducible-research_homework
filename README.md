@@ -30,9 +30,21 @@ $$
   -   $\ln(\beta)$ = 7.0748, so $\beta = e^{7.0748} = 1181.8$.
 - Both are statistically significant, with P values < 0.001. Also, they match the values in table 2 of the paper ($\alpha = 1.52$ and $\beta = 1182$)
 
+- D)
+``` {r}
+  # Q5d - Plotting the graph 
+  ggplot(log_viral_data, aes(x = log_L, y = log_V)) +
+  geom_point() +
+  geom_smooth(method = "lm") + 
+  labs(x = "log[Genome length (kb)]", y = "log[Virion volume (nm³)]")
+```
 
+![](Q5dPlot.png)
 
-
+- E) In order to find the Volume X when Genome Length = 300, we simply substitute the known values from the linear model into our equation $ln(V) = ln(\beta) + \alpha\ln(L)$:
+  - This gives $ln(X) = 7.0748 + 1.5152 \times \ln(300)$
+  - Then raising $ln(X)$ (15.71717) to the power of $e$ gives X = 6697007 nm³ = 6.70 x10<sup>6</sup> nm³
+- Therefore Volume when Genome Length is 300kb is 6697007 nm³
 
 
 
