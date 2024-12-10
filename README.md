@@ -21,7 +21,14 @@ $$
 \ln(V) = \ln(\beta) + \alpha \ln(L)
 $$
 
-- C) 
+- C)
+
+![](Summary.png)
+
+- From this, we can see
+  -   $\alpha$ = 1.5152.
+  -   $\ln(\beta)$ = 7.0748, so $\beta = e^{7.0748} = 1181.8$.
+- Both are statistically significant, with P values < 0.001. Furthermore, they match the values in table 2 of the paper ($\alpha = 1.52$ and $\beta = 1182$)
 
 
 
